@@ -1,0 +1,95 @@
+.sidebarmenu {
+    display: flex;
+    flex-direction: column;
+    flex: 0.4;
+    text-align: left;
+    border: 1px solid rgb(239, 243, 244);
+}
+
+.sidebarmenu__container {
+    padding-left: 30px;
+    display: flex;
+    padding: 30px;
+    flex-direction: column;
+    flex: 1;
+}
+
+.sidebarmenu__container>Button {
+    border-radius: 20px;
+    font-size: 20px;
+    justify-content: left;
+    align-items: center;
+}
+
+.sidebarmenu__container>Button:hover {
+    background-color: grey;
+}
+
+.sidebarmenu__containe>.MuiSvgIcon-root {
+    font-size: 35px;
+}
+
+.sidebar_title {
+    color: rgb(15, 20, 25);
+    padding: 5px;
+    padding-left: 10px;
+    margin-top: 5px;
+}
+
+.sidebarmenu__tweet {
+    padding-left: 30px;
+    padding-bottom: 5px;
+}
+
+.sidebarmenu__tweet>button {
+    background-color: rgb(26, 140, 216);
+    width: 15vw;
+    height: 50px;
+    border-radius: 25px;
+    color: white;
+}
+
+.sidebarmenu__tweet__text {
+    color: white;
+    font-weight: bold;
+}
+
+.sidebarmenu__tweet>button:hover {
+    background-color: rgb(26, 140, 216);
+}
+
+.sidebarmenu__profile>.MuiSvgIcon-root {
+    width: 15vw;
+}
+
+.sidebarmenu__profile {
+    padding-left: 30px;
+}
+
+.sidebarmenu__profile_details {
+    display: grid;
+    border-radius: 12px;
+}
+
+.name {
+    font-size: 15px;
+    color: black;
+    padding-right: 15px;
+    padding-left: 5px;
+}
+
+.handle {
+    font-size: 15px;
+    padding-right: 15px;
+    padding-left: 5px;
+}
+
+.sidebarmenu__profile>button {
+    border-radius: 25px;
+    text-transform: inherit;
+    width: 18vw;
+}
+
+.sidebarmenu__profile>button:hover {
+    background-color: gray;
+}
