@@ -1,0 +1,88 @@
+.mainmenu__container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    border: 1px solid rgb(239, 243, 244);
+}
+
+.whatshappening__container {
+    border-bottom: 1px solid rgb(239, 243, 244);
+}
+
+.mainmenu_Home__container {
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.mainmenu_Home__avatar {
+    display: flex;
+    padding-left: 10px;
+}
+
+.mainmenu_Home__avatar>form {
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+.mainmenu_Home__avatar>form>input {
+    padding-left: 10px;
+    height: 25px;
+    width: 28vw;
+    border: none;
+    font-size: 20px;
+}
+
+.mainmenu_Home__avatar>form>input:focus {
+    outline: none;
+}
+
+.hr {
+    width: 43vw;
+    margin-top: 10px;
+    color: rgb(239, 243, 244);
+    margin-bottom: 10px;
+}
+
+.tweet__attachments {
+    padding-top: 10px;
+    margin-left: 55px;
+}
+
+.tweet__attachments>button {
+    text-transform: inherit;
+    font-size: 20px;
+    align-items: center;
+    color: rgb(121, 196, 246);
+    border-radius: 16px;
+}
+
+.tweet_icons {
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+.tweet_icons>button {
+    text-transform: inherit;
+    font-size: 20px;
+    align-items: center;
+    color: rgb(121, 196, 246);
+    border-radius: 16px;
+}
+
+.tweet_button {
+    padding-left: 200px;
+}
+
+.tweet_button>button {
+    border-radius: 20px;
+    background-color: rgb(121, 196, 246);
+    text-transform: inherit;
+    font-weight: bold;
+    color: white;
+    width: 6vw;
+}
+
+.tweet_button>button:hover {
+    background-color: rgb(121, 196, 246);
+}

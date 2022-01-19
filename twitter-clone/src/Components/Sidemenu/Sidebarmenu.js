@@ -15,6 +15,7 @@ function Sidebarmenu() {
     return (
         <div className='sidebarmenu'>
             <div className="sidebarmenu__container">
+                <img src=" https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Twitter-logo.svg/1200px-Twitter-logo.svg.png" alt="Twitter-logo.svg" />
                 <Button>
                     <HomeSharpIcon />
                     <h4 className="sidebar_title">Home</h4>

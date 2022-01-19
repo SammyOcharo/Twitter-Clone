@@ -14,11 +14,20 @@
     flex: 1;
 }
 
+.sidebarmenu__container img {
+    width: 28px;
+    height: 28px;
+    padding-left: 40px;
+    cursor: pointer;
+    padding-bottom: 4px;
+}
+
 .sidebarmenu__container>Button {
     border-radius: 20px;
     font-size: 20px;
     justify-content: left;
     align-items: center;
+    text-transform: inherit;
 }
 
 .sidebarmenu__container>Button:hover {

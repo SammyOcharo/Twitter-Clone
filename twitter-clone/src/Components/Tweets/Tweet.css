@@ -1,0 +1,50 @@
+.tweet__container {
+    border: 1px solid rgb(239, 243, 244);
+}
+
+.container_per_tweet {
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+}
+
+.tweet_contents {
+    flex: 1;
+}
+
+.tweet_contents>.profile_details {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.tweet_contents>.profile_details>h4 {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.tweet_contents>.profile_details>h5 {
+    padding-right: 8px;
+    padding-top: 4px;
+}
+
+.tweet_contents>.profile_details>h6 {
+    padding-top: 5px;
+}
+
+.tweet_paragraph>p {
+    padding-left: 8px;
+    padding-top: 5px;
+}
+
+.tweep_icons {
+    display: flex;
+    padding: 6px;
+    justify-content: space-between;
+}
+
+.tweep_icons>.MuiSvgIcon-root {
+    font-size: 20px;
+    cursor: pointer;
+}

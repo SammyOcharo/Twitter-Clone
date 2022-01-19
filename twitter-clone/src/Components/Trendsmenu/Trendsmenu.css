@@ -1,0 +1,98 @@
+        .trendsmenu__container {
+            flex: 0.65;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .trendsmenu__search_container {
+            margin-top: 7px;
+            border-radius: 18px;
+            background-color: rgb(239, 243, 244);
+            width: 25vw;
+            height: 45px;
+            display: flex;
+            align-items: center;
+            border: none;
+        }
+        
+        .trendsmenu__search_container:focus {
+            border-style: 1px solid rgb(121, 196, 246);
+            background-color: white;
+        }
+        
+        .trendsmenu__search_container>.MuiSvgIcon-root {
+            margin-left: 9px;
+            cursor: pointer;
+        }
+        
+        .trendsmenu__search_container>input {
+            width: 20vw;
+            height: 25px;
+            margin-left: 10px;
+            font-size: 15px;
+            border: none;
+            background-color: rgb(239, 243, 244);
+        }
+        
+        .trendsmenu__search_container>input:focus {
+            outline: none;
+        }
+        
+        .trendsmenu__trend__container {
+            display: grid;
+            margin-top: 20px;
+            border-radius: 18px;
+            background-color: rgb(239, 243, 244);
+            width: 25vw;
+            align-items: flex-start;
+        }
+        
+        .trendsmenu__trends__header {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: flex-start;
+        }
+        
+        .trendsmenu__trends__header>h2 {
+            padding: 10px;
+        }
+        
+        .trendsmenu__trends__header>.MuiSvgIcon-root {
+            padding-top: 16px;
+            padding-left: 5em;
+        }
+        
+        .trendsmenu__content {
+            display: grid;
+        }
+        
+        .trendsmenu__content>button {
+            height: 13vh;
+            justify-content: left;
+            text-transform: inherit;
+        }
+        
+        .tag {
+            text-align: left;
+            color: black;
+        }
+        
+        .tag__number {
+            color: grey;
+        }
+        
+        .trends__content_container {
+            display: flex;
+            flex-direction: row;
+            flex: 1;
+        }
+        
+        .dots {
+            margin-left: 14em;
+        }
+        
+        .dots>.MuiSvgIcon-root {
+            background-color: rgb(26, 140, 216);
+        }
